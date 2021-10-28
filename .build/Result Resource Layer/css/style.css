@@ -1,0 +1,289 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+}
+
+/* voice */
+.voiceImage {
+	
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:244px;
+	width:320px;
+	background-image: url('../images/voice/microphone.png');
+    background-repeat: no-repeat;
+}
+
+.voice_button {
+	position:absolute;
+	left:80px;
+	top:240px;
+	height:80px;
+	width:161px;
+	background-image: url('../images/voice/button_off.png');
+}
+
+.voice_button_record {
+	position:absolute;
+	left:142px;
+	top:256px;
+	height:48px;
+	width:36px;
+	background-image: url('../images/voice/record_icon.png');
+}
+.voice_button_record2 {
+	position:absolute;
+	left:142px;
+	top:256px;
+	height:48px;
+	width:36px;
+	background-image: url('../images/voice/stop_icon.png');
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+}
+
+.content-padding {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.content_text {
+	font-weight:bold;
+	font-size:5em;
+	color:#fff;
+}
+
+
+/*
+ * basic part display 
+ */
+.display_outside {
+	left:0px;
+	top:0px;
+	height:320px;
+	width:320px;
+	background-image: url('../images/basic/display_inside.png'),
+					url('../images/basic/display_middle.png'), 
+					url('../images/basic/display_outside.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#time {
+	position:absolute;
+	left:101px;
+	top:114px;
+	height:63px;
+	width:122px;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.heart_icon {
+	position:absolute;
+	left:115.0px;
+	top:77px;
+	height:19px;
+	width:21px;
+	background-image: url('../images/basic/heart icon on.png');
+}
+
+.message_icon {
+	position:absolute;
+	left:153px;
+	top:77px;
+	height:18px;
+	width:21px;
+	background-image: url('../images/basic/message icon on.png');
+}
+
+.phone_icon {
+	position:absolute;
+	left:191px;
+	top:77px;
+	height:18px;
+	width:20px;
+	background-image: url('../images/basic/phone icon on.png');
+}
+
+.distance_bar {
+	position:absolute;
+	left:96px;
+	top:197px;
+	height:28px;
+	width:132px;
+	background-image: url('../images/basic/distance bar.png');
+}
+/*
+ * exercise part display 
+ */
+ .spot {
+ 	position:absolute;
+	left:157px;
+	top:42px;
+	height:16px;
+	width:33px;
+	background-image: url('../images/exer/spot_example1.png');
+ }
+ 
+ .exer_outside {
+ 	left:0px;
+	top:0px;
+	height:320px;
+	width:320px;
+	background-image: url('../images/exer/blur center display.png'),
+					url('../images/basic/display_inside.png'),
+					url('../images/basic/display_middle.png'),
+					url('../images/exer/alarm display.png');
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ 
+ .speedup{
+ 	position:absolute;
+	left:87px;
+	top:138px;
+	height:37px;
+	width:136px;
+	background-image: url('../images/exer/text speedup.png');
+ }
+ 
+ .spot_full {
+ 	position:absolute;
+	left:76px;
+	top:44px;
+	height:235px;
+	width:223px;
+	background-image: url('../images/exer/spot example2.png');
+ }
+/*
+ * map part display 
+ */
+.map_outside {
+	left:0px;
+	top:0px;
+	height:320px;
+	width:320px;
+	background-image: url('../images/map/map.png'),
+					url('../images/map/display_outside.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blur_map {
+	left:0px;
+	top:0px;
+	height:320px;
+	width:320px;
+	background-image: url('../images/map/map blur.png'),
+					url('../images/map/display_outside.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text_map {
+	position:absolute;
+	left:110px;
+	top:90px;
+	height:93px;
+	width:105px;
+	background-image: url('../images/map/text map.png');
+}
+
+.location_icon {
+	position:absolute;
+	left:230px;
+	top:140px;
+	height:26px;
+	width:29px;
+	background-image: url('../images/map/location icon.png');
+}
+
+.danger {
+	left:0px;
+	top:0px;
+	height:320px;
+	width:320px;
+	background-image: url('../images/map/danger.png'),
+					url('../images/map/display_outside.png');
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+/*
+* friend part display 
+*/
+.friend_popup {
+	position:absolute;
+	left:48px;
+	top:18px;
+	height:56px;
+	width:224px;
+	background-image: url('../images/friend/friends_pop-up.png');
+}
+
+.message_popup {
+	position:absolute;
+	left:30px;
+	top:18px;
+	height:83px;
+	width:256px;
+	background-image: url('../images/friend/message pop-up.png');
+}
+
+.message {
+	position:absolute;
+	left:115px;
+	top:66px;
+	font-size: 20px;
+	color: white;
+}
+
+.friend_outside {
+	left:0px;
+	top:0px;
+	height:320px;
+	width:320px;
+	background-image: url('../images/friend/background.png'),
+					url('../images/friend/bezel part.png');
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+
+
+
+#list {
+	position: absolute;
+	text-align: center;
+	left: 48px; 
+	top: 110px;
+	font-size: 30px;
+	color: white;	
+	width: 222px;
+	height: 130px;
+	overflow: auto;
+}
+
+.circle {
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   left: 0px;
+   right: 0px;
+   background-image: url('../images/friend/friend direction.png');   
+}
+
