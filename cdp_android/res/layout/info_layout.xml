@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/map" >
+        </ImageView>
+		
+		<ImageView
+		    android:id="@+id/menu_bar_line3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_x="0dp"
+		    android:layout_y="545dp"
+		    android:src="@drawable/menu_bar_line"/>
+
+		<ImageView
+		    android:id="@+id/gui_search"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_x="13dp"
+		    android:layout_y="27dp"
+		    android:src="@drawable/gui_search" />
+
+		<ImageView
+		    android:id="@+id/icon_favorite_place"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_x="21dp"
+		    android:layout_y="257dp"
+		    android:src="@drawable/icon_favorite_place" />
+
+		<ImageView
+		    android:id="@+id/icon_me_level"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_x="285dp"
+		    android:layout_y="259dp"
+		    android:src="@drawable/icon_me_level" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="280dp"
+            android:layout_x="0dp"
+            android:layout_y="288dp" >
+        </ListView>
+
+    </AbsoluteLayout>
+
+</LinearLayout>

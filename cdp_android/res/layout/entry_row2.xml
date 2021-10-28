@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entrylist_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/boarder_bottom_white"
+    android:padding="15dp"
+    android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="10dp"
+            />
+
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/fri_pager"
+	    android:layout_width="200dp"
+	    android:layout_height="138dp"
+	    android:layout_x="101dp"
+	    android:layout_y="33dp" >
+	</android.support.v4.view.ViewPager>
+
+</AbsoluteLayout>

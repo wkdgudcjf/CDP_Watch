@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entrylist_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/boarder_bottom_white"
+    android:padding="15dp"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:gravity="center"
+       android:layout_marginRight="20dp"
+       >
+        <ImageView 
+       android:id="@+id/icon_river"
+       android:background="@drawable/icon_river"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+           android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginRight="30dp"
+       >
+        <TextView 
+	        android:id="@+id/text_san"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:background="#00000000"
+	        android:textColor="#ff000000"
+	        android:layout_gravity="center"
+	        android:text="도봉산 원통산"/>
+    </LinearLayout>
+	    <LinearLayout 
+	      android:id="@+id/text_level"
+	     android:layout_width="wrap_content"
+	     android:layout_marginRight="70dp"
+    	   android:layout_height="fill_parent"
+    	    android:gravity="center_vertical"
+    	   >
+	          <ImageView 
+	        android:background="@drawable/icon_circle"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	      />
+	    </LinearLayout>
+	  <LinearLayout 
+	         android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+        android:gravity="right"
+        android:layout_gravity="right"
+       >
+	       <TextView 
+	        android:id="@+id/text_when"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="10sp"
+	        android:layout_gravity="center_vertical"
+	        android:text="2014.08.21"/>
+	  </LinearLayout>
+	   
+</LinearLayout>
